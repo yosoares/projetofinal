@@ -20,7 +20,7 @@ import Footer from './Components/Footer/Footer'
 
 export default function Rotas() {
     return (
-        <BrowserRouter>
+        <BrowserRouter bassename="/build/">
             <Header />
             <Routes>
                 <Route path='/' element={<Icon />} />
