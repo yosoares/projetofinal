@@ -28,7 +28,7 @@ export default function Basquete() {
           <a href="/Volei">
             <img alt="casual" src={casual}></img>
           </a>
-          <a href="/Esportes">
+          <a href="/Tennis">
             <img alt="tennis" src={tennis}></img>
           </a>
         </div>
@@ -63,7 +63,7 @@ export default function Basquete() {
                   <img alt="centauro" src={net}></img>
                   <h4>R$179,50</h4>
                 </a>
-                
+
               </div>
             </div>
           </div>
@@ -74,23 +74,23 @@ export default function Basquete() {
           <div className="logos css">
             <h4>Preços</h4>
             <div className="centauro">
-                <div className="dropdown-content">
+              <div className="dropdown-content">
 
-              <a
-                href="https://www.lojanba.com/mala-adidas-damian-lillard-duffel-preto+roxo-3ZP-3383-384"
-                target="_blank"
+                <a
+                  href="https://www.lojanba.com/mala-adidas-damian-lillard-duffel-preto+roxo-3ZP-3383-384"
+                  target="_blank"
                 >
-                <img alt="nike" src={nba}></img>
-                <h4>R$357,88</h4>
-              </a>
-              <a
-                href="https://www.netshoes.com.br/mala-adidas-damian-lillard-duffel-preto+roxo-3ZP-3383-384"
-                target="_blank"
+                  <img alt="nike" src={nba}></img>
+                  <h4>R$357,88</h4>
+                </a>
+                <a
+                  href="https://www.netshoes.com.br/mala-adidas-damian-lillard-duffel-preto+roxo-3ZP-3383-384"
+                  target="_blank"
                 >
-                <img alt="nike" src={net}></img>
-                <h4>R$389,00</h4>
-              </a>
-                  </div>
+                  <img alt="nike" src={net}></img>
+                  <h4>R$389,00</h4>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -100,23 +100,21 @@ export default function Basquete() {
           <div className="logos css">
             <h4>Preços</h4>
             <div className="centauro">
-                <div className="dropdown-content">
-                    
-              <a
-                href="https://www.amazon.com.br/WILSON-NBA-Authentic-Basketball-interior/dp/B091MGGWJW/ref=asc_df_B091MGGWJW/?tag=googleshopp00-20&linkCode=df0&hvadid=647566990259&hvpos=&hvnetw=g&hvrand=17572083377050095083&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001725&hvtargid=pla-1408995978700&psc=1"
-                target="_blank"
+              <div className="dropdown-content">
+
+                <a href="https://www.amazon.com.br/WILSON-NBA-Authentic-Basketball-interior/dp/B091MGGWJW/ref=asc_df_B091MGGWJW/?tag=googleshopp00-20&linkCode=df0&hvadid=647566990259&hvpos=&hvnetw=g&hvrand=17572083377050095083&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001725&hvtargid=pla-1408995978700&psc=1"
+                  target="_blank">
+                  <img alt="nike" src={amazon}></img>
+                  <h4>R$329,90</h4>
+                </a>
+                <a
+                  href="https://www.lojanba.com/bola-de-basquete-wilson-nba-authentic-indoor-outdoor-7-marrom-D25-3615-138"
+                  target="_blank"
                 >
-                <img alt="nike" src={amazon}></img>
-                <h4>R$329,90</h4>
-              </a>
-              <a
-                href="https://www.lojanba.com/bola-de-basquete-wilson-nba-authentic-indoor-outdoor-7-marrom-D25-3615-138"
-                target="_blank"
-                >
-                <img alt="nike" src={nba}></img>
-                <h4>R$284,28</h4>
-              </a>
-                  </div>
+                  <img alt="nike" src={nba}></img>
+                  <h4>R$284,28</h4>
+                </a>
+              </div>
             </div>
           </div>
         </div>

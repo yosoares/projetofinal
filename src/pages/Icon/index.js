@@ -15,7 +15,7 @@ export default function Icon() {
                     <a href='/Basquete'><img alt='basquete' src={speed}></img></a>
                     <a href='/Futebol'><img alt='futebol' src={futebol}></img></a>
                     <a href='/Volei'><img alt='casual' src={casual}></img></a>
-                    <a href='/Esportes'><img alt='tennis' src={tennis}></img></a>
+                    <a href='/Tennis'><img alt='tennis' src={tennis}></img></a>
                 </div>
                 <div className='tuts'>
                     <Carouselpri />
