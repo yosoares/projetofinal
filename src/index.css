@@ -1,11 +1,13 @@
 .App {
-    margin: 100px 140px;
+    width: 300px;
+    margin: 20px 40px;
     color: #d8bb16;
     display: flex;
-    width: 500px;
     padding: 30px 56px;
     background-color: #000000bc;
     box-shadow: 12px 9px 3px 0px #c99e03fa;
+    align-items: center;
+    text-align: center;
 }
 
 .button {
