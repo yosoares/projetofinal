@@ -1,0 +1,77 @@
+.menu {
+  z-index: auto;
+  position: over;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: rgb(46, 46, 58);
+  font-size: 20px;
+  padding: 10px;
+  opacity: 88%;
+  transition: 0.5s all ease-in-out;
+  /* border: 1px solid red;   */
+}
+
+.menu a {
+  text-decoration: none;
+  color: blueviolet;
+  padding: 30px;
+  transition: 0.75s all;
+
+}
+
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  transition: 0.75s border-top;
+
+}
+
+.dropdown *> {
+  transition: 1.5s all;
+  position: absolute;
+}
+
+.dropdown-content:hover .drop {
+  transition: 0.75s all;
+  display: block;
+}
+
+.drop {
+  display: none;
+  position: absolute;
+  background-color: blueviolet;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  animation-duration: 2s;
+  transition: 2s border-top;
+  border-radius: 2%;
+  width: 200px;
+  z-index: 1;
+  /* border: 1px solid red; */
+}
+
+.drop a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  transition: 0.75s all ease;
+  border-radius: 30px;
+
+
+}
+
+#Input {
+  width: 180px;
+}
+
+.drop a:hover {
+  cursor: pointer;
+  animation-duration: 2s;
+  background-color: none;
+  transition: 0.75s all;
+  background-color: aqua;
+}

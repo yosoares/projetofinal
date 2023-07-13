@@ -7,7 +7,7 @@ import Manipulacao from './pages/Manipulacao/index'
 
 export default function Rotas() {
     return (
-        <BrowserRouter>
+        <BrowserRouter bassename="/build/">
             <Header />
             <Routes>
                 <Route path='/' element={<PessoaJ />} />

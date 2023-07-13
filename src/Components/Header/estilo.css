@@ -15,6 +15,47 @@ body {
     width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+.banner img {
+    align-items: center;
+    width: 60%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20%;
+}
+
+.banner {
+    border: 2px solid rgba(0, 128, 0, 0);
+    display: flex;
+    align-items: center;
+}
+
+.css {
+    /* border: solid 2px green; */
+    padding: 2px;
+    background-color: #000000;
+    font-size: 28px;
+    color: #000000;
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    width: 120px;
+    margin-left: 18px;
+}
+
+
+.css a {
+    text-decoration: none;
+    color: #eef132;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+>>>>>>> 82cd2118b259bc8fbb4a029c3916b972410cf225
 .containersp a {
     color: #eef132;
     font-size: 18px;
@@ -27,6 +68,7 @@ body {
     background-color: #4819be;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px #0a0a09;
+    transition: 1.75 all;
 }
 
 .dropdown-content a {
@@ -38,10 +80,13 @@ body {
     font-size: 19px;
     transition-property: font-size;
     transition-duration: 0.4s;
+    transition: 1.75 all;
 }
 
 .dropdown-content a:hover {
-    background-color: #dfb006fa;
+    /* background-color: #dfb006fa; */
+    scale: 1.1;
+    transition: 1.75 all;
     font-size: 18px;
 }
 
@@ -64,10 +109,209 @@ body {
     align-items: center;
 }
 
+<<<<<<< HEAD
+=======
+.speed {
+    display: flex;
+    justify-content: center;
+}
+
+.speed img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 1px;
+    margin: 20px;
+    display: flex;
+    display: inline-block;
+}
+
+.treinos img {
+    width: 120px;
+    display: inline-block;
+}
+
+.treino_1,
+.treino_2 {
+
+    display: inline-block;
+}
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.imagem {
+    background-image: url(https://github.com/);
+    transition: .5s;
+    /* Transição de 500ms para deixar suave */
+}
+
+.imagem:hover {
+    background-image: url(https://github.com/);
+}
+
+.camisafit23 {
+    display: flex;
+    columns: 10ch;
+}
+
+.links {
+    display: inline-block;
+    margin: 100px;
+}
+
+
+
+.produto img {
+    border-radius: 3%;
+    margin: 5%;
+    align-items: center;
+    width: 20%;
+    position: relative;
+    display: inline-block;
+}
+
+.produto2 img {
+    border-radius: 3%;
+    margin-top: 4%;
+    width: 40%;
+}
+
+.shortinho img {
+    border-radius: 3%;
+    margin-top: 4%;
+    display: flex;
+}
+
+.centauro,
+.centauro img,
+.centauro a {
+    width: 22%;
+    margin-left: 1px;
+}
+
+.centauro,
+.centauro img,
+.centauro a {
+    width: 120px;
+    display: inline-block;
+    margin-left: 1px;
+}
+
+.nike,
+.nike img,
+.nike a {
+    width: 29%;
+    margin-left: 1px;
+}
+
+.neutro {
+    text-align: center;
+}
+
+
+>>>>>>> 82cd2118b259bc8fbb4a029c3916b972410cf225
 .logos img,
 .logos {
     margin: 12%;
     border-radius: 12px;
     display: flex;
 
+}
+
+.menu {
+    z-index: auto;
+    position: over;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(46, 46, 58);
+    font-size: 20px;
+    padding: 10px;
+    opacity: 88%;
+    transition: 0.5s all ease-in-out;
+    /* border: 1px solid red;   */
+}
+
+.menu a {
+    text-decoration: none;
+    color: blueviolet;
+    padding: 30px;
+    transition: 0.75s all;
+
+}
+
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    transition: 0.75s border-top;
+
+}
+
+.dropdown *> {
+    transition: 1.5s all;
+    position: absolute;
+}
+
+.dropdown-content:hover .drop {
+    transition: 0.75s all;
+    display: block;
+    position: absolute;
+}
+
+.drop {
+    display: none;
+    position: absolute;
+    background-color: blueviolet;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    animation-duration: 2s;
+    transition: 2s border-top;
+    border-radius: 10px;
+    width: 200px;
+    z-index: 1;
+    /* border: 1px solid red; */
+}
+
+.drop a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: 0.75s all ease;
+    border-radius: 30px;
+
+
+}
+
+#Input {
+    width: 180px;
+}
+
+.drop a:hover {
+    cursor: pointer;
+    animation-duration: 2s;
+    background-color: none;
+    transition: 0.75s all;
+    background-color: aqua;
 }
