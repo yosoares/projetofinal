@@ -15,8 +15,6 @@ body {
     width: 100%;
 }
 
-<<<<<<< HEAD
-=======
 .banner img {
     align-items: center;
     width: 60%;
@@ -54,8 +52,6 @@ body {
     font-weight: bold;
     margin-left: auto;
 }
-
->>>>>>> 82cd2118b259bc8fbb4a029c3916b972410cf225
 .containersp a {
     color: #eef132;
     font-size: 18px;
@@ -109,8 +105,6 @@ body {
     align-items: center;
 }
 
-<<<<<<< HEAD
-=======
 .speed {
     display: flex;
     justify-content: center;
@@ -228,7 +222,6 @@ body {
 }
 
 
->>>>>>> 82cd2118b259bc8fbb4a029c3916b972410cf225
 .logos img,
 .logos {
     margin: 12%;

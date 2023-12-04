@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.4.0",
     "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
     "imask": "^7.0.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
@@ -16,11 +17,7 @@
     "react-imask": "^7.0.1",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
-<<<<<<< HEAD
     "react-toastify": "^9.1.3",
-=======
-    "reactstrap": "^9.1.9",
->>>>>>> 82cd2118b259bc8fbb4a029c3916b972410cf225
     "web-vitals": "^2.1.4"
   },
   "scripts": {
